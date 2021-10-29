@@ -9,6 +9,7 @@ for (let index = 1; index <= [userInput]; index ++ 1) {
 
 $(document).ready(function() {
 
+  $()
 
     // 3
 
