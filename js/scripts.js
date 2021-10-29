@@ -22,12 +22,5 @@ $(document).ready(function() {
     
   });
 
-    // 3
 
-
-
-    // 2
-
-
-
-    // 1
+//toString will reference jQuery ******

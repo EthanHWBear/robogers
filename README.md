@@ -15,20 +15,20 @@ Code: beepBoop (43);
 Expected Output: "43"
 
 Test 4: "It should identify strings "3", "2" , and "1" in user inputted array."
-Code:
+Code: 
 Expected Output: 
 
 Test 5: "It should replace string "3" with "Won't you be my neighbor?"
-Code:
-Expected Output: 
+Code: submit ("3")
+Expected Output: userArray ["Won't you be my neighbor?"...]
 
 Test 6: "It should replace the string "2" with "Boop!"
-Code:
-Expected Output: 
+Code: submit ("2"...)
+Expected Output: userArray ["Boop!"...]
 
 Test 7: "It should replace the string "1" with "Beep!"
-Code:
-Expected Output: 
+Code: submit ("1")
+Expected Output: userArray ["Boop!"...]
 
 Test 8: "It should show new array with replacements to the user after clicking the 'Submit' button."
 Code:
