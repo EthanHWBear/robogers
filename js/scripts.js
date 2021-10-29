@@ -1,9 +1,9 @@
 // BUSINESS LOGIC
 
 
-function beepBoop(userArray) {
+function beepBoop(element) {
 const userArray = [];
-for (let index = 0; index <= userInput -1; index ++1) {
+for (let index = 0; index <= userInput -1; index ++) {
   if (i.toString().includes("3")) {
   userArray.push("Won't you be my neighbor?");
 }
@@ -16,6 +16,8 @@ for (let index = 0; index <= userInput -1; index ++1) {
 }
 // USER-INTERFACE LOGIC
 
+$(document).ready(function() {
+  $(input#numInput) 
 
     // 3
 
