@@ -10,6 +10,12 @@ Test 2: "It should return an array with 1 if the number 1 is inputted."
 Code: beepBoop(1);
 Expected Output: 1
 
+Test 3: "It should return numbers as strings when numbers are inputted."
+Code: beepBoop (43);
+Expected Output: "43"
+
+
+
 
 
 
