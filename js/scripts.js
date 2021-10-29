@@ -4,7 +4,6 @@
 const beepBoop = [];
 for (let index = 0; index <= userInput -1; index ++1) {
 
-
   if (userInput = 3) {
   greeting = "Won't you be my neighbor?";
 }
@@ -14,6 +13,7 @@ for (let index = 0; index <= userInput -1; index ++1) {
  else (userInput = 1) {
    greeting = "Beep!"
  }
+ return =
 }
 // USER-INTERFACE LOGIC
 
