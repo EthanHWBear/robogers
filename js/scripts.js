@@ -1,19 +1,21 @@
 // BUSINESS LOGIC
 
 
-const beepBoop = [];
+function beepBoop(userArray) {
+const userArray = [];
 for (let index = 0; index <= userInput -1; index ++1) {
 
   if (userInput = 3) {
-  greeting = "Won't you be my neighbor?";
+  replace = "Won't you be my neighbor?";
 }
  else if (userInput = 2) {
-  greeting = "Boop!"
+  replace = "Boop!"
  }
  else (userInput = 1) {
-   greeting = "Beep!"
+   replace = "Beep!"
  }
  return =
+}
 }
 // USER-INTERFACE LOGIC
 
