@@ -31,7 +31,7 @@ Code: submit ("1")
 Expected Output: userArray ["Boop!"...]
 
 Test 8: "It should show new array with replacements to the user after clicking the 'Submit' button."
-Code:
+Code: Submit (event)
 Expected Output: 
 
 
