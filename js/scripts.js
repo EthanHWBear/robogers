@@ -1,9 +1,19 @@
 // BUSINESS LOGIC
 
-let beepBoop = [];
-array.push(userInput);
-for (let index = 1; index <= [userInput]; index ++ 1) {
-  console.log(index);
+
+const beepBoop = [];
+for (let index = 0; index <= userInput -1; index ++1) {
+
+
+  if (userInput = 3) {
+  greeting = "Won't you be my neighbor?";
+}
+ else if (userInput = 2) {
+  greeting = "Boop!"
+ }
+ else (userInput = 1) {
+   greeting = "Beep!"
+ }
 }
 // USER-INTERFACE LOGIC
 
