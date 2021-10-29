@@ -4,24 +4,18 @@
 function beepBoop(userArray) {
 const userArray = [];
 for (let index = 0; index <= userInput -1; index ++1) {
-
-  if (userInput = 3) {
-  replace = "Won't you be my neighbor?";
+  if (i.toString().includes("3")) {
+  userArray.push("Won't you be my neighbor?");
 }
- else if (userInput = 2) {
-  replace = "Boop!"
+ else if (i.toString().includes("2")) {
+  userArray.push("Boop!");
  }
- else (userInput = 1) {
-   replace = "Beep!"
- }
- return =
-}
+ else (i.toString().includes("1")) {
+   userArray.push("Beep!");
+ }}
 }
 // USER-INTERFACE LOGIC
 
-$(document).ready(function() {
-
-  $()
 
     // 3
 
