@@ -1,3 +1,10 @@
+// UTILITY LOGIC
+
+
+// BUSINESS LOGIC
+
+// USER-INTERFACE LOGIC
+
 $(document).ready(function() {
 
   if (result <=7) {
@@ -14,7 +21,7 @@ $(document).ready(function() {
     $("#perhaps").fadeToggle();
 
     // 1
-    
+
   }
   event.preventDefault();
 }

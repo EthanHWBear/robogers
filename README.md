@@ -1,5 +1,4 @@
-// <----- BUSINESS LOGIC ------->
-
+// TESTS //
 
 Describe: beepBoop()
 
