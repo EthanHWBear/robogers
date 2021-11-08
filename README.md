@@ -1,44 +1,3 @@
-// TESTS //
-
-Describe: beepBoop()
-
-Test 1: "It should return an array with a 0 if the number 0 is inputted."
-Code: beepBoop(0);
-Expected Output: 0
-
-Test 2: "It should return an array with 1 if the number 1 is inputted."
-Code: beepBoop(1);
-Expected Output: 1
-
-Test 3: "It should return numbers as strings when numbers are inputted into array."
-Code: beepBoop (43);
-Expected Output: "43"
-
-Test 4: "It should identify strings "3", "2" , and "1" in user inputted array."
-Code: 
-Expected Output: 
-
-Test 5: "It should replace string "3" with "Won't you be my neighbor?"
-Code: submit ("3")
-Expected Output: userArray ["Won't you be my neighbor?"...]
-
-Test 6: "It should replace the string "2" with "Boop!"
-Code: submit ("2"...)
-Expected Output: userArray ["Boop!"...]
-
-Test 7: "It should replace the string "1" with "Beep!"
-Code: submit ("1")
-Expected Output: userArray ["Boop!"...]
-
-Test 8: "It should show new array with replacements to the user after clicking the 'Submit' button."
-Code: Submit (event)
-Expected Output: 
-
-
-// <--------- UI LOGIC ----------->
-
-
-
 # _{Mr. Robogers}_
 
 #### Independent Project - Week 3 - JavaScript Looping & Arrays
@@ -89,3 +48,39 @@ Copyright (c) 2021 Ethan Bear
 ## Contact Information
 
 Ethan Bear <a href="mailto:ehwbear@icloud.com">ehwbear@icloud.com</a>
+
+// TESTS //
+
+Describe: beepBoop()
+
+Test 1: "It should return an array with a 0 if the number 0 is inputted."
+Code: beepBoop(0);
+Expected Output: 0
+
+Test 2: "It should return an array with 1 if the number 1 is inputted."
+Code: beepBoop(1);
+Expected Output: 1
+
+Test 3: "It should return numbers as strings when numbers are inputted into array."
+Code: beepBoop (43);
+Expected Output: "43"
+
+Test 4: "It should identify strings "3", "2" , and "1" in user inputted array."
+Code: if (index.toString().includes("3")) {
+Expected Output:   userArray.push("Won't you be my neighbor?");
+
+Test 5: "It should replace string "3" with "Won't you be my neighbor?"
+Code: submit ("3")
+Expected Output: userArray ["Won't you be my neighbor?"...]
+
+Test 6: "It should replace the string "2" with "Boop!"
+Code: submit ("2"...)
+Expected Output: userArray ["Boop!"...]
+
+Test 7: "It should replace the string "1" with "Beep!"
+Code: submit ("1")
+Expected Output: userArray ["Beep!"...]
+
+Test 8: "It should show new array with replacements to the user after clicking the 'Submit' button."
+Code: Submit (event)
+Expected Output: "Beep, Boop, Wont you be my neighbor, 4,5,6, etc..."

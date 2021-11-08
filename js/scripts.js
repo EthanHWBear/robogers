@@ -1,33 +1,3 @@
-// BUSINESS LOGIC
-
-// function beepBoop(event) {
-// const userArray = [];
-// for (let index = 0; index <= userInput; index ++) {
-//   if (i.toString().includes("3")) {
-//   userArray.push("Won't you be my neighbor?");
-//   }
-// //toString will reference jQuery
-//   else if (i.toString().includes("2")) {
-//   userArray.push("Boop!");
-//   }
-//   else (i.toString().includes("1")) {
-//   userArray.push("Beep!");
-//   event.preventDefault();
-//   }
-// }}
-
-// USER-INTERFACE LOGIC
-
-$(document).ready(function() {
-  $("form#entryForm").submit(function(event) {
-    event.preventDefault();
-
-    const formInput = parseInt($("#numInput").val())
-    const output = beepBoop(formInput);
-    $("#result").html(output);
-    $("#result").show();
-  })});
-
 // BUSINESS LOGIC TAKE 2
 
 const  beepBoop =(inputtedNumber) => {
@@ -46,3 +16,15 @@ const userArray = [];
   }
   return userArray
 }
+
+// USER-INTERFACE LOGIC
+
+$(document).ready(function() {
+  $("form#entryForm").submit(function(event) {
+    event.preventDefault();
+
+    const formInput = parseInt($("#numInput").val())
+    const output = beepBoop(formInput);
+    $("#result").html(output);
+    $("#result").show();
+  })});
